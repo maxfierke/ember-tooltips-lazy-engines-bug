@@ -7,6 +7,7 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.mount('tooltip-using-engine', { path: '/tooltips' });
 });
 
 export default Router;
